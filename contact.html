@@ -13,8 +13,33 @@
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
     <title>Rachelthackerdev.com/contact</title>
 </head>
-<body>
-    <h1>Contact Me</h1>
-    <p>Please fill out this form.</p>
+<body class="contact-page">
+    <div>
+        <h2>Contact Me</h2>
+        <p>I can't wait to hear from you!</p>
+    </div>
+    <form method="post" id="contactForm" name="contactForm" action="">
+    <div> 
+        <label for="contactName">Name</label>
+        <input type="text" id="contactName" name="contactName" required>
+    </div>
+    <br/>
+    <div> 
+        <label for="contactEmail">Email</label>
+        <input type="text" id="contactEmail" name="contactEmail" required>
+    </div>
+    <br/>
+    <div> 
+        <label for="emailSubject">Subject</label>
+        <input type="text" id="emailSubject" name="emailSubject">
+    </div>
+    <br/>
+    <div> 
+        <textarea rows="20" cols="80" name="comment" required></textarea>
+    </div>
+    <br/>
+    <input type="submit" value="Submit">
+</form>
+
 </body>
 </html>
