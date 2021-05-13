@@ -2,13 +2,11 @@
     font-family: 'Source Sans Pro', sans-serif;
 }
 p {
-    font-size: 1.25em;
-}
-h1 {
-    font-size: 3em;
+    font-size: 1em;
 }
 h2 {
-    font-size: 2em;
+    font-size: 3em;
+    
 }
 h3 {
     font-size: 1.5em;
@@ -16,6 +14,10 @@ h3 {
 nav {
     width: 100%;
     overflow-x: hidden;
+    background-color: #616B62;
+    position: fixed;
+    z-index: 1;
+    opacity: .8;
 }
 ul {
     list-style-type: none;
@@ -24,7 +26,7 @@ ul {
     text-align: center;
     justify-content: center;
     padding-left: 0px;
-    margin: 2%;
+    margin: 1.5%;
     width: 100%;
     overflow-x: hidden;
 }
@@ -35,27 +37,36 @@ nav a {
     padding-bottom: 5px;
 }
 a {
-    color: #70B877;
+    color: #DAF0DC;
+    text-decoration: none;
 }
 a:hover {
-    font-size: 20px;
-    transition: ease-in-out 5ms;
+    transition: ease-in-out 50ms;
     opacity: 0.7;
+   
 }
-a:visited {
-    color: black;
-}
-.hero {
+.main-page-hero {
     background-image: url("./images/Organic\ Background.jpg");
     background-position: center;
+    background-blend-mode: lighten;
     min-height: 700px;
     justify-content: center;
     text-align: center;
     overflow-x: hidden;
 }
-h1 {
-   padding-top: 12%;
-   padding-bottom: 6%;
+.main-page-hero h1 {
+    font-size: 5em;
+    padding-top: 12%;
+    padding-bottom: 3%;
+    color: #416B46;
+}
+.main-page-hero p {
+    font-size: 1.25em;
+    color: black;
+}
+#software {
+    color: #416B46;
+    font-weight: 600;
 }
 .social-media .fab{
     font-size: 30px;
@@ -66,14 +77,14 @@ h1 {
     text-decoration: none;
 }
 .social-media a:hover {
-    font-size: 40px;
-    transition: ease-in-out 5ms;
+    transition: ease-in-out 20ms;
     opacity: 0.7;
+    color: #416B46;
 }
 .social-media a:active {
     color:#0066ff;
 }
-p.about-section {
+.about-section p {
     font-weight: 300;
 }
 .about-section {
@@ -86,6 +97,9 @@ p.about-section {
     min-height: 500px;
     overflow-x: hidden;
 }
+.about-section h2 {
+    color: white;
+}
 .about-section-center h2{
     margin-top: 0%;
     margin-bottom: 8%;
@@ -94,8 +108,9 @@ p.about-section {
 }
 .about-section-right h3 {
     margin-top: 0%;
-    padding-bottom: 2%;
+    padding-bottom: 8%;
     margin-bottom: 5%;
+    color: white;
 }
 
 .about-section-left {
@@ -126,11 +141,13 @@ p.about-section {
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
+    min-height: 500px;
 }
 #skills-heading{
     flex-direction: column;
     text-align: center;
-    padding: 4%;
+    padding: 5%;
+    color: #1B5720;
 }
 .fab {
     font-size: 70px;
@@ -150,11 +167,14 @@ i.fab#html-icon {
     width: 100%;
     background-color: #616B62;
     color: #DAF0DC;
-    min-height: 300px;
+    min-height: 500px;
     text-align: center;
     font-weight: 300;
     margin-bottom: 5%;
     overflow-x: hidden;
+}
+.projects-section h2 {
+    color: white;
 }
 .projects-section a {
     color: white;
@@ -168,11 +188,119 @@ i.fab#html-icon {
     margin-top: 5%;
 }
 .projects-section-info {
-    margin-top: 5%;
+    margin-top: 3%;
 }
 footer p {
     font-size: 1em;
     font-weight: 300;
     overflow-x: hidden;
+    text-align: left;
+    color: black;
 }
-/* Contact Page */
+/* Contact Page 
+
+
+
+*/
+.contact-page {
+    color: #416B46;
+    background-color: White;
+    text-align: center;
+    font: inherit;
+}
+.contact-page h2 {
+    font-size: 3em;
+}
+.contact-page .fas {
+    font-size: 6em;
+    padding: 3%;
+}
+.contact-page-hero {
+    background-color: #DAF0DC;
+    min-height: 500px;
+}
+.contact-page-hero h2 {
+    margin-top: 0%;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+#contactForm {
+    padding-top: 0%;
+}
+ #contactEmail, #contactName {
+    min-width: 350px;
+    min-height: 40px;
+    background-color:  #f2f2f2;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px;
+}
+#contactMessage {
+    background-color:  #f2f2f2;
+    border-radius: 5px;
+    border: 1px;
+    font: inherit;
+}
+#submitButton {
+    min-width: 350px;
+    min-height: 40px;
+    background-color: #416B46;
+    color: white;
+    border-radius: 5px;
+    font: inherit;
+    cursor: pointer;
+}
+/* Education Page 
+
+
+
+*/
+
+.education-page {
+    text-align: center;
+    font: inherit;
+}
+.education-page h2 {
+    font-size: 3em;
+    text-align: center;
+    color: #416B46;
+    padding-top: 12%;
+    margin-top: 0%;
+}
+.education-page-hero {
+    background-color: #DAF0DC;
+    min-height: 500px;
+    margin-top: 0%;
+   
+}
+.education-page .fas {
+    font-size: 6em;
+}
+.education-page-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-left: 3%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+.education-page-info-emphasis {
+    font-style: italic;
+}
+.wsu-center {
+    background-color: #f2f2f2;
+    padding: 1.5%;
+    border: 1px black solid;
+}
+.byu-i-right{
+    background-color: #f2f2f2;
+    padding: 1.5%;
+    border: 1px black solid;
+}
+.codeacademy-left  {
+    background-color: #f2f2f2;
+    padding: 1.5%;
+    border: 1px black solid;
+}

@@ -13,33 +13,46 @@
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
     <title>Rachelthackerdev.com/contact</title>
 </head>
+  <header>
+    <nav>
+        <ul>
+            <a href="./index.html">Home</a>
+            <a href="#">About</a>
+            <a href="url">Skills</a>
+            <a href="url">Projects</a>
+            <a href="./education.html">Education</a>
+            <a href="./contact.html">Contact</a>
+        </ul>
+    </nav>
+  </header>
 <body class="contact-page">
-    <div>
+    <div class="contact-page-hero">
         <h2>Contact Me</h2>
-        <p>I can't wait to hear from you!</p>
+       
+        <p>Thank you for taking the time to check out my website. If you have any questions about my work,</p>
+        <p>or would like to reach out, please fill out the form below.</p>
     </div>
     <form method="post" id="contactForm" name="contactForm" action="">
+        <i class="fas fa-envelope-square"></i> 
     <div> 
-        <label for="contactName">Name</label>
-        <input type="text" id="contactName" name="contactName" required>
+        <label for="contactName"></label>
+        <input type="text" id="contactName" name="contactName" placeholder="Name" required>
     </div>
     <br/>
     <div> 
-        <label for="contactEmail">Email</label>
-        <input type="text" id="contactEmail" name="contactEmail" required>
+        <label for="contactEmail"></label>
+        <input type="text" id="contactEmail" name="contactEmail" placeholder="Email" required>
     </div>
     <br/>
     <div> 
-        <label for="emailSubject">Subject</label>
-        <input type="text" id="emailSubject" name="emailSubject">
+        <textarea id = contactMessage rows="10" cols="100" name="comment" placeholder="Message" required></textarea>
     </div>
     <br/>
-    <div> 
-        <textarea rows="20" cols="80" name="comment" required></textarea>
-    </div>
-    <br/>
-    <input type="submit" value="Submit">
+    <input id="submitButton" type="submit" value="Submit">
 </form>
-
+<footer>
+    <p>&#169 GrizThackProductions 2021 </p>
+</footer>
+<script>type="text/javascript"</script>
 </body>
 </html>
