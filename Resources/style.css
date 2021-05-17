@@ -56,7 +56,7 @@ h3 {
     width: 30px;
     height: 20px;
     z-index: 1;
-    opacity: .8;
+    opacity: 1;
 }
 .toggle-button .bar {
     height: 3px;
@@ -256,9 +256,6 @@ a:hover {
     width: 100%;
     display: flex;
     justify-content: center;
-}
-i.fab#html-icon {
-    padding-left: 0%;
 }
 @media only screen and (max-width: 600px) {
     .skills-icons {
