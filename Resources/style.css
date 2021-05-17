@@ -230,6 +230,9 @@ a:hover {
     .about-section-right h3 {
         padding-top: 1.5rem;
     }
+    .about-section-center p {
+        line-height: normal;
+    }
 }
 .skills-section {
     display: flex;
@@ -268,7 +271,7 @@ i.fab#html-icon {
         margin: auto;
     }
     #skills-heading {
-        margin: 0;
+        margin: auto;
     }
 }
     
@@ -312,13 +315,6 @@ footer p {
 
 
 */
-@media only screen and (max-width: 600px) {
-    .about-section-left, .about-section-center, .about-section-right {
-        width: 100%;
-        font-size: 10vm;
-    }
-
-    }
 
 
 /* Contact Page 
@@ -331,6 +327,8 @@ footer p {
     background-color: White;
     text-align: center;
     font: inherit;
+    width: 100%;
+    overflow-x: hidden;
 }
 .contact-page h2 {
     font-size: 3em;
@@ -342,6 +340,7 @@ footer p {
 .contact-page-hero {
     background-color: #DAF0DC;
     min-height: 500px;
+    width: 100%;
 }
 .contact-page-hero h2 {
     margin-top: 0%;
@@ -361,6 +360,8 @@ footer p {
 }
 #contactMessage {
     background-color:  #f2f2f2;
+    min-height: 150px;
+    width: 50%;
     border-radius: 5px;
     border: 1px;
     font: inherit;
@@ -373,6 +374,18 @@ footer p {
     border-radius: 5px;
     font: inherit;
     cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+    .contact-page {
+        padding: 0;
+        margin: 0 auto;
+    }
+    #contact-form {
+        width: 100%;
+    }
+    .contact-page-hero h2 {
+        padding-top: 6rem;
+    }
 }
 /* Education Page 
 
@@ -427,4 +440,26 @@ footer p {
     background-color: #f2f2f2;
     padding: 1.5%;
     border: 1px black solid;
+}
+@media only screen and (max-width: 800px) {
+    .education-page h2 {
+        margin: auto;
+        padding-top: 10rem;
+        
+    }
+    .education-page-info {
+        flex-direction: column;
+        margin: auto;
+        padding: 0;
+    }
+}
+@media only screen and (max-width: 920px) {
+    .education-page-hero {
+        padding: 0;
+        margin: auto;
+    }
+    .education-page-info {
+        margin: auto;
+        padding: 0;
+    }
 }
