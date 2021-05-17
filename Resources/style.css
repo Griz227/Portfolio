@@ -22,7 +22,7 @@ h3 {
     overflow-x: hidden;
     background-color: #616B62;
     position: fixed;
-    z-index: 1;
+    z-index: 5;
     opacity: .8;
     width: 100%;
 }
@@ -48,15 +48,15 @@ h3 {
 }
 .toggle-button {
     position: fixed;
-    top: .75rem;
-    right: 1 rem;
+    top: 1rem;
+    right: 1rem;
     display: none;
     flex-direction: column;
     justify-content: space-between;
     width: 30px;
     height: 20px;
-    z-index: 1;
-    opacity: 1;
+    z-index: 5;
+    opacity: .8;
 }
 .toggle-button .bar {
     height: 3px;
@@ -74,7 +74,7 @@ h3 {
     }
     .navbar {
         flex-direction: column;
-        align-items: flex-start;
+        align-items: flex-end;
     }
     .navbar-links ul {
         width: 100%;
@@ -102,6 +102,7 @@ a:hover {
     justify-content: center;
     text-align: center;
     overflow-x: hidden;
+    z-index: 1;
 }
 .main-page-hero h1 {
     font-size: 5rem;
