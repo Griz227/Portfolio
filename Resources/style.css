@@ -264,14 +264,18 @@ i.fab#html-icon {
     .skills-icons {
         flex-direction: column;
     }
-    .fab {
-       display: flex;
+    .skills-section .fab {
+        display: flex;
         padding: 0;
-        width: 10%;
+        width: 100%;
         margin: auto;
     }
     #skills-heading {
         margin: auto;
+    }
+    i.fab.fa-react, i.fab.fa-js, i.fab.fa-git, i.fab.fa-css3-alt, i.fab.fa-html5 {
+        justify-content: center;
+        padding: 1rem;
     }
 }
     
