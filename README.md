@@ -4,7 +4,6 @@
 ## Table of contents
 * [General info](#general-info)
 * [Screenshots](#screenshots)
-* [Setup](#setup)
 * [Features](#features)
 * [Status](#status)
 * [Contact](#contact)
@@ -14,9 +13,6 @@ I built this website using HTML5, CSS3, and Javascript. My intention was to gain
 
 ## Screenshots
 ![Example screenshot](./Resources/images/Screen-Shot.png)
-
-## Setup
-Describe how to install / setup your local environement / add link to demo version.
 
 ## Code Examples
 Examples of usage:
