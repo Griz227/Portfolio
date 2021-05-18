@@ -30,6 +30,7 @@ List of features ready.
 To-do list:
 * Toggle Light/Dark Mode
 * Add more projects
+* Link contact form
 
 ## Status
 Project is: _in progress_, still working to add more projects as I am currently learning new technologies.
