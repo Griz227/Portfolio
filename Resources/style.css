@@ -43,6 +43,10 @@ h3 {
     padding: 1rem;
     display: block;
 }
+.navbar-links li a:hover {
+    transition: ease-in-out 50ms;
+    opacity: 0.7;
+}
 .navbar-links li:hover {
     background-color: #416B46;
 }
@@ -86,13 +90,26 @@ h3 {
     .navbar-links li a {
         padding: .5rem, 1rem;
     }
+    .navbar-links a:hover {
+        transition: ease-in-out 50ms;
+        opacity: 0.7;
+    }
     .navbar-links.active {
         display: flex;
     }
 }
-a:hover {
+/*a:hover {
     transition: ease-in-out 50ms;
     opacity: 0.7;
+} */
+#target-skills:hover {
+    transition: none;
+    opacity: 1;
+}
+#target-projects:hover {
+    transition: none;
+    opacity: 1;
+    font-size: 3rem;
 }
 .main-page-hero {
     background-image: url("./images/alex-azabache-Td9qXDHwp9g-unsplash.jpg");
@@ -113,10 +130,6 @@ a:hover {
 .main-page-hero p {
     font-size: 1.25rem;
     color: black;
-}
-#software {
-    color: #416B46;
-    font-weight: 600;
 }
 .social-media .fab{
     font-size: 30px;
@@ -160,15 +173,7 @@ a:hover {
     margin-top: 0%;
     margin-bottom: 8%;
     padding: 10px;
-    justify-content: left;
-}
-.about-section-right h3 {
-    margin-top: 0%;
-    padding-bottom: 8%;
-    margin-bottom: 5%;
-    color: white;
-}
-
+} 
 .about-section-left {
     flex-direction: column;
     margin-top: 8%;
@@ -203,22 +208,19 @@ a:hover {
     .about-section-center {
         margin: auto;
         padding: 0;
+        text-align: center;
+        width: 100%;
     }
     .about-section-left{
         margin: auto;
     }
-    .about-section-right {
-        margin: auto;
-    }
     .about-section-center h2 {
         line-height: normal;
-        padding: 0;
+        padding-left: 2rem;
+        padding-bottom: .5rem;
     }
     .profile-pic {
         margin: auto;
-    }
-    .about-section-right h3 {
-        padding: 2rem;
     }
 }
 @media only screen and (max-width: 603px) {
@@ -261,6 +263,11 @@ a:hover {
 }
 .skills-section h2 {
     text-align: center;
+    color: #416B46;
+} 
+.skills-section a:hover {
+    transition: none;
+    color: #416B46;
 }
 @media only screen and (max-width: 600px) {
     .skills-icons {
@@ -315,12 +322,11 @@ footer p {
     text-align: left;
     color: black;
 }
-/* MEDIA QUERIES 
-
-
-
-
-*/
+@media only screen and (max-width: 600px) {
+    .projects-section h2 {
+        margin-top: 2.5rem;
+    }
+}
 
 
 /* Contact Page 
