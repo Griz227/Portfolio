@@ -153,6 +153,10 @@ h3 {
     }
 
 }
+
+/* About Section Styling */
+
+
 .about-section p {
     font-weight: 300;
 }
@@ -191,7 +195,7 @@ h3 {
     margin-top: 9%;
     margin-bottom: 5%;
     justify-content: center;
-    line-height: 80%;
+    line-height: 2rem;
 }
 .profile-pic {
     height: 280px;
