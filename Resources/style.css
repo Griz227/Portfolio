@@ -363,33 +363,8 @@ footer p {
     padding-top: 10%;
     padding-bottom: 5%;
 }
-#contactForm {
-    padding-top: 0%;
-}
- #contactEmail, #contactName {
-    min-width: 350px;
-    min-height: 40px;
-    background-color:  #f2f2f2;
-    font-size: 1em;
-    border-radius: 5px;
-    border: 1px;
-}
-#contactMessage {
-    background-color:  #f2f2f2;
-    min-height: 150px;
-    width: 50%;
-    border-radius: 5px;
-    border: 1px;
-    font: inherit;
-}
-#submitButton {
-    min-width: 350px;
-    min-height: 40px;
-    background-color: #416B46;
-    color: white;
-    border-radius: 5px;
-    font: inherit;
-    cursor: pointer;
+#contact-link {
+    color: #416B46;
 }
 @media only screen and (max-width: 600px) {
     .contact-page {
