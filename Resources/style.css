@@ -245,6 +245,75 @@ h3 {
         line-height: normal;
     }
 }
+/* Certification Page 
+
+
+
+*/
+
+.certs-page {
+    text-align: center;
+    font: inherit;
+}
+.certs-page h2 {
+    font-size: 3em;
+    text-align: center;
+    color: #416B46;
+    padding-top: 12%;
+    margin-top: 0%;
+}
+.certs-page-hero {
+    background-color: #DAF0DC;
+    min-height: 500px;
+    margin-top: 0%;
+   
+}
+.certs-page .fab {
+    font-size: 7em;
+    padding-left: 0%;
+    padding-right: 0%;
+    
+}
+.certs-page-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-left: 3%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+.admin-badge-left {
+
+}
+.admin-text-right {
+    padding-top: 11%;
+    padding-bottom: 5%;
+}
+
+@media only screen and (max-width: 800px) {
+    .certs-page h2 {
+        margin: auto;
+        padding-top: 10rem;
+        
+    }
+    .ecerts-page-info {
+        flex-direction: column;
+        margin: auto;
+        padding: 0;
+    }
+}
+@media only screen and (max-width: 920px) {
+    .certs-page-hero {
+        padding: 0;
+        margin: auto;
+    }
+    .certs-page-info {
+        margin: auto;
+        padding: 0;
+    }
+}
 /* Skills Page 
 
 
