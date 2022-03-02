@@ -246,6 +246,12 @@ h3 {
 
 
 */
+.skills-page-hero {
+    background-color: #DAF0DC;
+    min-height: 500px;
+    margin-top: 0%;
+   
+}
 .skills-section {
     display: flex;
     flex-direction: column;
@@ -296,7 +302,11 @@ h3 {
         padding: 1rem;
     }
 }
-    
+/* Projects Page 
+
+
+
+*/
 .projects-section {
     width: 100%;
     background-color: #616B62;
