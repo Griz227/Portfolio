@@ -611,6 +611,7 @@ footer p {
 }
 .education-page .fas {
     font-size: 6em;
+    padding-top: 2%;
 }
 .education-page-info {
     display: flex;
