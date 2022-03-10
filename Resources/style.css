@@ -202,8 +202,8 @@ h3 {
     line-height: 2rem;
 }
 .profile-pic {
-    height: 380px;
-    width: 324px;
+    height: 308px;
+    width: 246px;
     border-radius: 25px;
 }
 @media only screen and (max-width: 800px) {
