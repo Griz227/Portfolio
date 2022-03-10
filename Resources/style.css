@@ -190,7 +190,7 @@ h3 {
 }
 .about-section-center {
     flex-direction: column;
-    margin-top: 8%;
+    margin-top: 10%;
     margin-bottom: 5%;
     line-height: 80%;
     font-weight: 300;
@@ -202,9 +202,9 @@ h3 {
     line-height: 2rem;
 }
 .profile-pic {
-    height: 280px;
-    width: 224px;
-    border-radius: 45px;
+    height: 380px;
+    width: 324px;
+    border-radius: 25px;
 }
 @media only screen and (max-width: 800px) {
     .about-section {
